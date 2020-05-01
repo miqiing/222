@@ -1,0 +1,91 @@
+/* other page------------------------------ */
+
+
+/* title */
+.title {
+    background-color: rgb(211, 78, 1);
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* box-shadow: 1px 1px 20px rgb(211, 78, 1); */
+}
+
+
+.introduce {
+    margin: 15px 30px;
+    width: 520px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+/* img */
+.introduce a img {
+    /* width: 150px; */
+    height: 220px;
+    margin-top: 30px;
+    border-radius: 10px 10px;
+}
+
+.introduce a img:hover {
+    box-shadow: 2px 2px 4px rgb(112, 112, 112);
+}
+
+/* bookname */
+.bookname {
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+
+.bookname p {
+    display: inline-block;
+}
+
+.bookname p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* para */
+.para {
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    width: 300px;
+    height: 80px;
+    line-height: 25px;
+}
+
+.para p {
+    width: 300px;
+    height: 175px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width:420px) {
+    .container {
+        margin: 0 auto;
+    }
+
+    .introduce {
+        margin-bottom: 250px;
+    }
+
+    .bookname {
+        left: 10px;
+        top: 270px;
+        text-align: center;
+    }
+
+    .para {
+        left: 10px;
+        top: 310px;
+    }
+
+}

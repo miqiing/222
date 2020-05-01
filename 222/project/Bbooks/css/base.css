@@ -1,0 +1,57 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after {
+    /*设置添加的子元素的内容为空*/
+    content: "";
+    /*设置添加的子元素为块级元素*/
+    display: block;
+    /*设置添加的子元素的高度为0*/
+    height: 0;
+    /*设置添加的子元素看不见*/
+    visibility: hidden;
+    /*给添加的子元素设置clear: both;*/
+    clear: both;
+}
+
+.clearfix {
+    /*兼容IE6*/
+    *zoom: 1;
+}
+
+/* 去除a标签默认样式 */
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: skyblue;
+}
+
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+    color: skyblue;
+}
+
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+    color: skyblue;
+}
+
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+    color: skyblue;
+}
+
+/* 正在点击的链接*/
+a:active {
+    text-decoration: none;
+    color: skyblue;
+}

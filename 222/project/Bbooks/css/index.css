@@ -1,0 +1,113 @@
+/* main page------------------------------ */
+html {
+    width: 100%;
+    height: 100%;
+    background: url('../img/bg.jpg') no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-top {
+    position: absolute;
+}
+
+
+
+/* header-top */
+.header-top {
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+
+.header-top img {
+    width: 40px;
+    height: 40px;
+}
+
+.header-top .title {
+    position: absolute;
+    padding-left: 55px;
+    top: 3px;
+    font-size: 40px;
+    color: rgb(170, 240, 39);
+    font-family: Futura LT Book;
+}
+
+.header-top p {
+    position: absolute;
+    left: 250px;
+    top: 43px;
+    display: inline-block;
+    background-color: rgb(170, 240, 39);
+    color: white;
+    width: 110px;
+    height: 23px;
+    line-height: 23px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* container */
+.container {
+    padding-top: 500px;
+}
+
+
+.container .row a {
+    display: block;
+    /* width: 150px;
+    height: 50px; */
+    line-height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(182, 68, 2);
+    font-size: 18px;
+    font-weight: bold;
+    /* font-family: '锐字工房云字库宋黑GBK'; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container .row a:hover {
+    background-color: rgb(170, 240, 39);
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    html {
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .container {
+        padding-top: 200px;
+    }
+
+    .header-top {
+        padding-left: 30px;
+    }
+
+    .header-top p {
+        left: 230px;
+    }
+}

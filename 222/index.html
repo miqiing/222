@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>222</title>
+    <link rel="icon" href="images/222.png" type="image/x-icon" />
+
+    <!-- fullpage -->
+    <link rel="stylesheet" href="css/fullpage.css" />
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/easings.js"></script>
+    <script src="js/scrolloverflow.js"></script>
+    <script src="js/fullpage.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div id="fullpage">
+      <!-- 第一页 -->
+      <div class="section page1">
+        <div class="title">
+          <h1>你好，</h1>
+          <h1>我是米七</h1>
+          <h1>一名前端开发者</h1>
+        </div>
+        <div class="contact">
+          <a href="javascript:;"
+            >联系我？
+            <img src="images/weixin.jpg" alt="" />
+          </a>
+        </div>
+        <div class="works">
+          <p>我做过什么项目呢？请往下看</p>
+          <div class="triangle"></div>
+        </div>
+      </div>
+      <!-- 第二页 -->
+      <div class="section page2">
+        <div class="design">
+          <a href="project/Bbooks/index.html" target="_blank"></a>
+        </div>
+        <div class="introduce">
+          <p>网站名称：Bbooks</p>
+          <p>
+            网站介绍：这是一个小众书单网站，目前包含六类书单——学习、医学、文学、沟通、心理学、理财。每一类都精心挑选了几本优质书籍。读书百遍，其义自见。
+          </p>
+        </div>
+      </div>
+      <!-- 第三页 -->
+      <div class="section page3">
+        <div class="phone">
+          <a href="#" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+    <script>
+      new fullpage("#fullpage", {
+        // 设置每一屏的背景颜色
+        sectionsColor: ["skyblue", "green", "yellow"],
+        // 显示指示器
+        navigation: true,
+        // 设置指示器的提示信息
+        navigationTooltips: ["自我介绍", "网站", "小程序"],
+        // 让指示器的提示信息默认就显示
+        showActiveTooltip: true,
+      });
+    </script>
+  </body>
+</html>
