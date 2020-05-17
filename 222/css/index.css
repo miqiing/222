@@ -15,6 +15,7 @@ a {
     color: #000;
 }
 
+
 /* 第一页 */
 /* ----------------------------------------------- */
 
@@ -71,12 +72,14 @@ a {
 }
 
 .works .triangle {
-    width: 15px;
-    height: 15px;
-    background-color: #fff;
     position: absolute;
-    bottom: 37px;
+    bottom: 40px;
     left: 800px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #fff;
 }
 
 
@@ -87,15 +90,17 @@ a {
     position: relative;
 }
 
-.design {
+.GirlBooks {
     width: 600px;
     height: 370px;
-    background: url('../project/Bbooks/img/bg.jpg') no-repeat;
+    background: url('../images/girlbooks.jpg') no-repeat;
     border: 4px solid #fff;
     background-size: cover;
+    background-position: center top;
     border-radius: 50px;
     margin-left: 120px;
 }
+
 
 .introduce {
     position: absolute;
@@ -103,8 +108,13 @@ a {
     top: 150px;
 }
 
+.introduce h2 {
+    color: #fff;
+}
+
 .introduce p {
     color: #fff;
+    font-size: 15px;
 }
 
 .introduce p:nth-child(1) {
@@ -116,6 +126,32 @@ a {
     width: 350px;
     line-height: 25px;
 }
+
+.introduce button {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-width: 0;
+    outline: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #fff;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+}
+
+.introduce button a {
+    color: green;
+}
+
+.introduce button:hover {
+    background-color: greenyellow;
+}
+
 
 
 /* 第三页 */
