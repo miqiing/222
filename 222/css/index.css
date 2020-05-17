@@ -54,6 +54,9 @@ a {
     margin-left: 5px;
     margin-top: 10px;
     opacity: 0;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
 }
 
 .contact a:hover img {
@@ -139,19 +142,18 @@ a {
     letter-spacing: 1px;
     font-weight: bold;
     background-color: #fff;
-    -moz-transition: background-color 0.2s ease-in-out;
-    -webkit-transition: background-color 0.2s ease-in-out;
-    -ms-transition: background-color 0.2s ease-in-out;
 }
 
 .introduce button a {
     color: green;
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
 }
 
-.introduce button:hover {
-    background-color: greenyellow;
+.introduce button:hover a {
+    color: pink;
 }
-
 
 
 /* 第三页 */
