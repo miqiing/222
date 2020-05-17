@@ -118,6 +118,7 @@ a {
 .introduce p {
     color: #fff;
     font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .introduce p:nth-child(1) {
@@ -160,13 +161,31 @@ a {
 /* ----------------------------------------------- */
 
 .phone {
-    width: 260px;
-    height: 500px;
+    width: 300px;
+    height: 528px;
     background: #000;
-    border-radius: 30px;
-    margin-left: 800px;
+    border-radius: 25px;
+    margin-left: 700px;
 }
 
+.inside {
+    width: 270px;
+    height: 468px;
+    background: url('../images/llmk.png');
+    background-size: 270px 468px;
+    position: absolute;
+    margin-left: 715px;
+    margin-top: -500px;
+}
+
+.second {
+    left: 305px;
+}
+
+.second h2,
+.second p {
+    color: #000;
+}
 
 
 /* 第四页 */
